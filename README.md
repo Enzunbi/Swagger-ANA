@@ -1,6 +1,6 @@
 # Swagger-ANA: Interface Hidro Webservice 
 
-**Autor**: Enzo Augusto Caputo Engenheiro Civil graduado pela UFMG (Universidade Federal de Minas Gerais).
+**Autor**: Enzo Augusto Caputo Engenheiro Civil graduado pela UFMG (Universidade Federal de Minas Gerais).<br>
 **Contato**: zoencaputo@gmail.com
 
 
