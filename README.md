@@ -1,10 +1,10 @@
-# Swagger-ANA: Interface Hidro Webservice 🌊
+# Swagger-ANA: Interface Hidro Webservice 
 
 Este repositório fornece uma biblioteca em Python para a automação do download e processamento de dados hidrometeorológicos através do **Hidro Webservice**, a nova API baseada em Swagger da Agência Nacional de Águas e Saneamento Básico (ANA).
 
 O projeto transforma as requisições complexas da API em dados estruturados (Pandas DataFrames), prontos para aplicação em estudos de engenharia e recursos hídricos.
 
-## 🏗️ Estrutura do Repositório
+## Estrutura do Repositório
 
 O projeto é modular para facilitar a manutenção e escalabilidade:
 
@@ -70,7 +70,7 @@ As funcionalidades de busca e visualização estão divididas em três níveis d
 * Contextualização Cartográfica (achar_estacoes_pela_bacia_3): É a ferramenta de maior nível técnico para apresentações e relatórios. Além do processamento espacial, ela utiliza a biblioteca contextily para adicionar um mapa de fundo (como OpenStreetMap ou imagens de satélite) ao gráfico. Para isso, a função realiza a reprojeção interna de todos os vetores para o sistema Mercator Global (EPSG:3857), permitindo o alinhamento perfeito entre os dados da ANA e os serviços de mapas web (basemaps).
 
 
-## 🚀 Como Usar
+## Como Usar
 O arquivo `ANA_Swagger_Exemplos.ipynb` serve como um guia prático para a implementação rápida das funcionalidades da biblioteca. Ele contém scripts pré-configurados que demonstram o fluxo completo de trabalho, desde a geração do token de acesso e o download automatizado de séries históricas até o processamento dos arquivos JSON em DataFrames e a exportação para CSV. Este módulo é ideal para novos usuários que desejam testar a comunicação com o Webservice da ANA ou integrar rapidamente as ferramentas de análise espacial em seus projetos de recursos hídricos.
 
 ---
